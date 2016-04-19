@@ -17,6 +17,7 @@ display: inline-block;
   background-color: skyblue;
   color: black
 }
+
 #overlay {
     position: fixed;
     top: 0;
@@ -49,4 +50,4 @@ display: inline-block;
     text-indent:-9999px;
     top:-7px;
     right:-7px;
-} 
+}
