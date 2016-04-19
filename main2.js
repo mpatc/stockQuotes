@@ -29,12 +29,12 @@ function makeStockQuote(Q) {
     var $change = $('<td>').text(z).appendTo($tr);
     if (localStorage.Fav == 0) {
       var list = [];
-      x.push(list)
-      var lists = JSON.stringify(lister)
+      list.push(s)
+      var lists = JSON.stringify(list)
       localStorage.Fav = lists
     } else {
       var list = JSON.parse(localStorage.Fav)
-      x.push(list)
+      list.push(s)
       var lists = JSON.stringify(list)
       localStorage.Fav = lists
 
@@ -130,9 +130,9 @@ function oldMaker () {
         .fail(function(err) {
             console.log(err)
         });
+      }
   }
 
-}
 //         .done(function(list) {
 //             var listed = makeStockQuote(list)
 //             console.log(list)
