@@ -1,0 +1,52 @@
+.card {
+border: 1px solid purple;
+padding: 5px;
+margin: 10px;
+border-radius: 5px;
+box-shadow: 10px 10px 5px #888888;
+display: inline-block;
+}
+.over {
+  background-color: skyblue;
+  color: white;
+  outline: 6px dashed yellow;
+  box-shadow: 0 0 0 6px #EA3556;
+
+}
+.over1 {
+  background-color: skyblue;
+  color: black
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#modal {
+    position:absolute;
+    background:url(tint20.png) 0 0 repeat;
+    background:rgba(0,0,0,0.2);
+    border-radius:14px;
+    padding:8px;
+}
+
+#content {
+    border-radius:8px;
+    background:#fff;
+    padding:20px;
+}
+#close {
+    position:absolute;
+    background:url(close.png) 0 0 no-repeat;
+    width:24px;
+    height:27px;
+    display:block;
+    text-indent:-9999px;
+    top:-7px;
+    right:-7px;
+} 
